@@ -14,6 +14,9 @@ export default function Navbar() {
       </Link>
       <ul className="flex justify-evenly">
         <li className="mx-4  dark:text-slate-50 dark:hover:text-blue-500  hover:text-blue-500 cursor-pointer">
+          <Link to="/">Home</Link>
+        </li>
+        <li className="mx-4  dark:text-slate-50 dark:hover:text-blue-500  hover:text-blue-500 cursor-pointer">
           <Link to="/login">Login</Link>
         </li>
         <li className="mx-4  dark:text-slate-50 dark:hover:text-blue-500  hover:text-blue-500 cursor-pointer">
