@@ -2,6 +2,7 @@ import React from "react";
 import MainLayout from "../Layouts/MainLayout";
 
 export default function Login() {
+  let login = true;
   return (
     <MainLayout>
       {login ? (
