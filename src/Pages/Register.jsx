@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import MainLayout from "../Layouts/MainLayout";
 
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 export default function Register() {
   let register = true;
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+
   return (
     <MainLayout>
       {register ? (
@@ -31,8 +36,9 @@ export default function Register() {
               />
             </div>
             <div className="flex flex-col">
-              <label>Password</label>
+              <label>Password:</label>
               <input
+                onChange={(e) => setPassword(e.target.value)}
                 autoComplete="off"
                 className="input"
                 type="password"
@@ -41,8 +47,9 @@ export default function Register() {
               />
             </div>
             <div className="flex flex-col">
-              <label>Re-Password</label>
+              <label>Re-Password:</label>
               <input
+                onChange={(e) => setConfirmPassword(e.target.value)}
                 autoComplete="off"
                 className="input"
                 type="password"
@@ -52,6 +59,11 @@ export default function Register() {
             </div>
             <div className="flex justify-center mt-10">
               <button
+                onClick={() => {
+                  if (password !== confirmPassword) {
+                    toast("Passwords does not match!");
+                  }
+                }}
                 type="submit"
                 className="bg-slate-900 text-slate-100 rounded p-2"
               >
@@ -59,6 +71,7 @@ export default function Register() {
               </button>
             </div>
           </form>
+          <ToastContainer />
         </div>
       ) : (
         <div className="dummy__text">No Registration ;]</div>
