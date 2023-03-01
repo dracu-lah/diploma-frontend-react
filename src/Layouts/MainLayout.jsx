@@ -12,13 +12,11 @@ function MainLayout({ children }) {
     }, 500);
   }, []);
 
-
   return (
     <>
-
       {loading ? (
-        <div className="flex justify-center h-screen py-[40vh] dark:bg-slate-900">
-          <InfinitySpin width="200" color="#3A98B9" visible={loading} />
+        <div className="flex justify-center h-screen py-[40vh] dark:bg-sky-900">
+          <InfinitySpin width="200" color="#0ea5e9" visible={loading} />
         </div>
       ) : (
         <div className=" dark:bg-slate-900  min-h-screen flex flex-col mx-auto">
