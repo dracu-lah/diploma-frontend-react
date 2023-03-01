@@ -4,9 +4,7 @@ import MainLayout from "./Layouts/MainLayout";
 function App() {
   return (
     <MainLayout>
-      <div className="dummy__text">
-        Home
-      </div>
+      <div className="dummy__text">Home</div>
     </MainLayout>
   );
 }
