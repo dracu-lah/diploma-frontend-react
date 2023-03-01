@@ -8,7 +8,7 @@ function MainLayout({ children }) {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 8000);
+    }, 1000);
   }, []);
   // console.log(loading);
   // console.log(theme);

@@ -14,16 +14,16 @@ export default function Navbar() {
       </Link>
       <ul className="flex justify-evenly">
         <li className="mx-4  dark:text-slate-50 dark:hover:text-blue-500  hover:text-blue-500 cursor-pointer">
-          Login
+          <Link to="/login">Login</Link>
         </li>
         <li className="mx-4  dark:text-slate-50 dark:hover:text-blue-500  hover:text-blue-500 cursor-pointer">
-          Register
+          <Link to="/register">Register</Link>
         </li>
         <li className="mx-4  dark:text-slate-50 dark:hover:text-blue-500  hover:text-blue-500 cursor-pointer">
           <Link to="/results">View Results</Link>
         </li>
         <li className="mx-4  dark:text-slate-50 dark:hover:text-blue-500  hover:text-blue-500 cursor-pointer">
-          Enter Results
+          <Link to="/enter_results">Enter Results</Link>
         </li>
 
         <li className=" ">
