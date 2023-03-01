@@ -4,7 +4,7 @@ import MainLayout from "./Layouts/MainLayout";
 function App() {
   return (
     <MainLayout>
-      <div className="flex justify-center text-slate-100 text-4xl py-[50vh]">
+      <div className="dummy__text">
         Home
       </div>
     </MainLayout>

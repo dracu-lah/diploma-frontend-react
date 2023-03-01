@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../Components/Navbar";
 import { Watch } from "react-loader-spinner";
+import Footer from "../Components/Footer";
 
 function MainLayout({ children }) {
   const [loading, setLoading] = useState(false);
@@ -29,9 +30,10 @@ function MainLayout({ children }) {
           />
         </div>
       ) : (
-        <div className="h-screen dark:bg-slate-800 ">
+        <div className=" dark:bg-slate-900 ">
           <Navbar />
           <div>{children}</div>
+          {/* <Footer /> */}
         </div>
       )}
     </>
