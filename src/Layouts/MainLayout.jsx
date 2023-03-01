@@ -30,10 +30,12 @@ function MainLayout({ children }) {
           />
         </div>
       ) : (
-        <div className=" dark:bg-slate-900 ">
+        <div className=" dark:bg-slate-900  min-h-screen flex flex-col mx-auto">
           <Navbar />
-          <div>{children}</div>
-          {/* <Footer /> */}
+          <div className="flex-1 flex flex-wrap items-center justify-center">
+            {children}
+          </div>
+          <Footer />
         </div>
       )}
     </>

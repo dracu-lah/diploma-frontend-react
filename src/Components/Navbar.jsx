@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className=" px-40 flex justify-between p-4 dark:bg-slate-800 bg-slate-100">
+    <nav className=" px-40 flex justify-between p-4 dark:bg-blue-900 bg-slate-100">
       <Link to="/">
         <div className="flex space-x-4 justify-between cursor-pointer">
           <img className="w-8 mt-[-3px]" src={book_logo} alt="book_logo" />
