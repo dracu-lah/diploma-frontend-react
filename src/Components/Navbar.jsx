@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className=" px-40 flex justify-between p-4 dark:bg-slate-700 bg-slate-100">
+    <nav className=" px-40 flex justify-between p-4 dark:bg-slate-800 bg-slate-100">
       <Link to="/">
         <div className="flex space-x-4 justify-between cursor-pointer">
           <img className="w-8 mt-[-3px]" src={book_logo} alt="book_logo" />
@@ -13,19 +13,19 @@ export default function Navbar() {
         </div>
       </Link>
       <ul className="flex justify-evenly">
-        <li className="mx-4  dark:text-slate-50 dark:hover:text-blue-500  hover:text-blue-500 cursor-pointer">
+        <li className="link__text">
           <Link to="/">Home</Link>
         </li>
-        <li className="mx-4  dark:text-slate-50 dark:hover:text-blue-500  hover:text-blue-500 cursor-pointer">
+        <li className="link__text">
           <Link to="/login">Login</Link>
         </li>
-        <li className="mx-4  dark:text-slate-50 dark:hover:text-blue-500  hover:text-blue-500 cursor-pointer">
+        <li className="link__text">
           <Link to="/register">Register</Link>
         </li>
-        <li className="mx-4  dark:text-slate-50 dark:hover:text-blue-500  hover:text-blue-500 cursor-pointer">
+        <li className="link__text">
           <Link to="/results">View Results</Link>
         </li>
-        <li className="mx-4  dark:text-slate-50 dark:hover:text-blue-500  hover:text-blue-500 cursor-pointer">
+        <li className="link__text">
           <Link to="/enter_results">Enter Results</Link>
         </li>
 
