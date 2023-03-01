@@ -9,4 +9,7 @@
   .dummy__text {
     @apply flex justify-center text-slate-100 text-4xl;
   }
+  .input {
+    @apply p-2 rounded w-[200px] text-slate-500;
+  }
 }
