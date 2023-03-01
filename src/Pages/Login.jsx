@@ -12,11 +12,7 @@ export default function Login() {
         >
           <div className=" flex flex-col gap-2 mb-5">
             <label className="mt-2">Select user type:</label>
-            <select
-              className="input text-slate-500"
-              name="user-type"
-              id="user-type-select"
-            >
+            <select className="input text-slate-500" name="user-type">
               <option value="student">Student</option>
               <option value="teacher">Class Tutor</option>
               <option value="admin">Admin</option>

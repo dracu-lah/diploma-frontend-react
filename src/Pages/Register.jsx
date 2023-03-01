@@ -7,18 +7,14 @@ export default function Register() {
     <MainLayout>
       {register ? (
         <div className="w-[60vh] h-[60vh] text-slate-500 dark:text-slate-400 p-6 shadow-lg bg-slate-100 dark:bg-sky-900 rounded-md">
-          <h1 className="text-center text-2xl">Login</h1>
+          <h1 className="text-center text-2xl">Register</h1>
           <form
             onSubmit={(event) => event.preventDefault()}
             className="flex flex-col items-center py-5 gap-4"
           >
             <div className=" flex flex-col gap-2 mb-5">
               <label className="mt-2">Select user type:</label>
-              <select
-                className="input text-slate-500"
-                name="user-type"
-                id="user-type-select"
-              >
+              <select className="input text-slate-500" name="user-type">
                 <option value="student">Student</option>
                 <option value="teacher">Class Tutor</option>
                 <option value="admin">Admin</option>
@@ -59,7 +55,7 @@ export default function Register() {
                 type="submit"
                 className="bg-slate-900 text-slate-100 rounded p-2"
               >
-                Login
+                Register
               </button>
             </div>
           </form>
