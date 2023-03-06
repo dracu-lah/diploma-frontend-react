@@ -10,8 +10,8 @@
 
 [![home page](home.png)](https://adorable-cupcake-ac0fc7.netlify.app/)
 
-[![login page](login1.png)](https://adorable-cupcake-ac0fc7.netlify.app/login)
+[![login page](login1.png)](https://adorable-cupcake-ac0fc7.netlify.app/)
 
-[![register page](regis.png)](https://adorable-cupcake-ac0fc7.netlify.app/register)
+[![register page](regis.png)](https://adorable-cupcake-ac0fc7.netlify.app/)
 
-[![result page](result.png)](https://adorable-cupcake-ac0fc7.netlify.app/enter_results)
+[![result page](result.png)](https://adorable-cupcake-ac0fc7.netlify.app/)
