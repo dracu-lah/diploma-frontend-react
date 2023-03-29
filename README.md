@@ -7,4 +7,4 @@
 * Provides Examination Result to the Students.
 * Mainly concentrate on external exams.
 * They can also view and analyse their result status.
-##Link for the hosted webiste : https://adorable-cupcake-ac0fc7.netlify.app/
+## Link for the hosted webiste : https://adorable-cupcake-ac0fc7.netlify.app/
