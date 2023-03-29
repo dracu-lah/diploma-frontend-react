@@ -5,31 +5,31 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="md:px-20 lg:px-40 flex flex-col gap-10 md:flex-row md:justify-between  p-4 dark:bg-sky-900 bg-slate-100">
+    <nav className="md:px-20 p-3 text-xs md:text-md lg:px-40 flex flex-col gap-y-4 md:flex-row items-center md:justify-between py-2 md:p-4 dark:bg-sky-900 bg-slate-100">
       <Link to="/">
-        <div className="flex space-x-4 justify-center md:justify-between cursor-pointer">
-          <img className="w-8 mt-[-3px]" src={book_logo} alt="book_logo" />
+        <div className="flex space-x-4 justify-center items-center md:justify-between cursor-pointer">
+          <img className="w-5 md:w-8 " src={book_logo} alt="book_logo" />
           <h2 className=" dark:text-slate-50 ">Student Management</h2>
         </div>
       </Link>
-      <ul className="flex justify-evenly">
+      <ul className="flex justify-p-3  items-center">
         <li className="link__text">
-          <Link to="/">Home</Link>
+          <Link className="p-4" to="/">Home</Link>
         </li>
         <li className="link__text">
-          <Link to="/login">Login</Link>
+          <Link className="p-4" to="/login">Login</Link>
         </li>
         <li className="link__text">
-          <Link to="/register">Register</Link>
+          <Link className="p-4" to="/register">Register</Link>
         </li>
         <li className="link__text">
-          <Link to="/results">View Results</Link>
+          <Link className="p-4" to="/results">View Results</Link>
         </li>
         <li className="link__text">
-          <Link to="/enter_results">Enter Results</Link>
+          <Link className="p-4" to="/enter_results">Enter Results</Link>
         </li>
 
-        <li className="md:order-last">
+        <li>
           <Switcher />
         </li>
       </ul>

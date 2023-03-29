@@ -6,7 +6,7 @@ export default function Login() {
   return (
     <MainLayout>
       {login ? (
-        <div className="w-[60vh] h-[60vh] text-slate-500 dark:text-slate-400 p-6 shadow-lg bg-slate-100 dark:bg-sky-900 rounded-md">
+        <div className="w-[60vh]  text-slate-500 dark:text-slate-400 p-6 shadow-lg bg-slate-100 dark:bg-sky-900 rounded-md">
           <h1 className="text-center text-2xl">Login</h1>
           <form
             onSubmit={(event) => event.preventDefault()}
