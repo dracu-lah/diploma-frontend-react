@@ -1,4 +1,4 @@
-# STUDEENT MANAGEMENT SYSTEM  
+# Semester Mark management  
 
 ## _PROJECT GROUP 2_
                       
@@ -7,11 +7,4 @@
 * Provides Examination Result to the Students.
 * Mainly concentrate on external exams.
 * They can also view and analyse their result status.
-
-[![home page](home.png)](https://adorable-cupcake-ac0fc7.netlify.app/)
-
-[![login page](login1.png)](https://adorable-cupcake-ac0fc7.netlify.app/)
-
-[![register page](regis.png)](https://adorable-cupcake-ac0fc7.netlify.app/)
-
-[![result page](result.png)](https://adorable-cupcake-ac0fc7.netlify.app/)
+##Link for the hosted webiste : https://adorable-cupcake-ac0fc7.netlify.app/
