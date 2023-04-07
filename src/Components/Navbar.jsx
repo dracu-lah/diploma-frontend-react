@@ -9,25 +9,21 @@ export default function Navbar() {
       <Link to="/">
         <div className="flex space-x-4 justify-center items-center md:justify-between cursor-pointer">
           <img className="w-5 md:w-8 " src={book_logo} alt="book_logo" />
-          <h2 className=" dark:text-slate-50 ">Student Management</h2>
+          <h2 className=" dark:text-slate-50 ">Result Management</h2>
         </div>
       </Link>
       <ul className="flex justify-p-3  items-center">
         <li className="link__text">
-          <Link className="p-4" to="/">Home</Link>
+          <Link className="p-4" to="/">
+            Home
+          </Link>
         </li>
         <li className="link__text">
-          <Link className="p-4" to="/login">Login</Link>
+          <Link className="p-4" to="/results">
+            View Results
+          </Link>
         </li>
-        <li className="link__text">
-          <Link className="p-4" to="/register">Register</Link>
-        </li>
-        <li className="link__text">
-          <Link className="p-4" to="/results">View Results</Link>
-        </li>
-        <li className="link__text">
-          <Link className="p-4" to="/enter_results">Enter Results</Link>
-        </li>
+
 
         <li>
           <Switcher />
