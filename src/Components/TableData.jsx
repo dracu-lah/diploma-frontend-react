@@ -4,10 +4,11 @@ import { AiFillCloseCircle } from "react-icons/ai";
 const TableData = () => {
   return (
     <div className="overflow-x-auto">
-      <button className="w-full bg-red-300 rounded-lg p-2 ">
-       close
-      </button>
-      <h1 className="text-center p-4 uppercase font-bold">S1 Data</h1>
+      <button className="w-full bg-red-300 rounded-lg p-2 ">close</button>
+      <div className="flex justify-between m-2 items-center">
+        <h1 className="text-center p-4 uppercase font-bold">S1 Data</h1>
+        <p className="p-2 bg-yellow-200 rounded-lg">SGPA : 10</p>
+      </div>
       <table className="table table-compact w-full">
         <thead>
           <tr>
@@ -77,7 +78,10 @@ const TableData = () => {
           </tr>
         </tbody>
       </table>
-      <h1 className="text-center p-4 uppercase font-bold">S2 Data</h1>
+      <div className="flex justify-between m-2 items-center">
+        <h1 className="text-center p-4 uppercase font-bold">S2 Data</h1>
+        <p className="p-2 bg-yellow-200 rounded-lg">SGPA : 10</p>
+      </div>
       <table className="table table-compact w-full">
         <thead>
           <tr>
@@ -147,7 +151,10 @@ const TableData = () => {
           </tr>
         </tbody>
       </table>
-      <h1 className="text-center p-4 uppercase font-bold">S3 Data</h1>
+      <div className="flex justify-between m-2 items-center">
+        <h1 className="text-center p-4 uppercase font-bold">S3 Data</h1>
+        <p className="p-2 bg-yellow-200 rounded-lg">SGPA : 10</p>
+      </div>
       <table className="table table-compact w-full">
         <thead>
           <tr>
@@ -217,7 +224,10 @@ const TableData = () => {
           </tr>
         </tbody>
       </table>
-      <h1 className="text-center p-4 uppercase font-bold">S4 Data</h1>
+      <div className="flex justify-between m-2 items-center">
+        <h1 className="text-center p-4 uppercase font-bold">S4 Data</h1>
+        <p className="p-2 bg-yellow-200 rounded-lg">SGPA : 10</p>
+      </div>
       <table className="table table-compact w-full">
         <thead>
           <tr>
@@ -287,7 +297,10 @@ const TableData = () => {
           </tr>
         </tbody>
       </table>
-      <h1 className="text-center p-4 uppercase font-bold">S5 Data</h1>
+      <div className="flex justify-between m-2 items-center">
+        <h1 className="text-center p-4 uppercase font-bold">S5 Data</h1>
+        <p className="p-2 bg-yellow-200 rounded-lg">SGPA : 10</p>
+      </div>
       <table className="table table-compact w-full">
         <thead>
           <tr>
@@ -357,7 +370,10 @@ const TableData = () => {
           </tr>
         </tbody>
       </table>
-      <h1 className="text-center p-4 uppercase font-bold">S6 Data</h1>
+      <div className="flex justify-between m-2 items-center">
+        <h1 className="text-center p-4 uppercase font-bold">S6 Data</h1>
+        <p className="p-2 bg-yellow-200 rounded-lg">SGPA : 10</p>
+      </div>
       <table className="table table-compact w-full">
         <thead>
           <tr>
