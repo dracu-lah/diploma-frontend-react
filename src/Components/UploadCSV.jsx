@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import { read, utils } from "xlsx";
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
+import { organizeData } from "../utils/functions/organizeData";
 
 const UploadCSV = () => {
   const [result, setResult] = useState({});
+  console.log(result);
   const readUploadFile = (e) => {
     e.preventDefault();
     if (e.target.files) {
@@ -14,54 +17,23 @@ const UploadCSV = () => {
         const workbook = read(data, { type: "array" });
         const sheetName = workbook.SheetNames[0];
         const worksheet = workbook.Sheets[sheetName];
-        const json = utils.sheet_to_json(worksheet);
+        const xlsx_json = utils.sheet_to_json(worksheet);
+        const str = JSON.stringify(xlsx_json);
 
-        organizeData(json);
+        let isFound = str.includes("register number");
+
+        if (isFound) {
+          const organizedData = organizeData(xlsx_json);
+          setResult(organizedData);
+          toast("Correct file is uploaded");
+        } else {
+          toast("Wrong file or Wrong file format");
+          return;
+        }
       };
       reader.readAsArrayBuffer(e.target.files[0]);
     }
   };
-
-  function organizeData(jsonData) {
-    const organizedData = [];
-
-    jsonData.forEach((data) => {
-      const newData = organizedData.find(
-        (item) => item.registerNumber === data["register number"]
-      );
-
-      if (newData) {
-        newData.courses.push({
-          course: data["course"],
-          examType: data["exam type"],
-          attendance: data["attendance"],
-          withheld: data["withheld"],
-          internalMark: data["internal mark"],
-          grade: data["grade"],
-          result: data["result"],
-        });
-      } else {
-        organizedData.push({
-          registerNumber: data["register number"],
-          studentName: data["student name"],
-          branch: data["branch"],
-          semester: data["semester"],
-          courses: [
-            {
-              course: data["course"],
-              examType: data["exam type"],
-              attendance: data["attendance"],
-              withheld: data["withheld"],
-              internalMark: data["internal mark"],
-              grade: data["grade"],
-              result: data["result"],
-            },
-          ],
-        });
-      }
-    });
-    setResult(organizedData);
-  }
 
   return (
     <form
@@ -74,6 +46,7 @@ const UploadCSV = () => {
           console.log("results sent to server");
         } catch (error) {
           console.error(error);
+          toast("Data not send to server");
         }
       }}
     >
@@ -89,6 +62,7 @@ const UploadCSV = () => {
       >
         POST
       </button>
+      <ToastContainer />
     </form>
   );
 };
