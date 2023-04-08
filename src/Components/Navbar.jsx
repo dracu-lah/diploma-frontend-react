@@ -25,9 +25,9 @@ export default function Navbar() {
         </li>
 
 
-        <li>
+        {/* <li>
           <Switcher />
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
