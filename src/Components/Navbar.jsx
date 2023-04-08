@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="md:px-20 p-3 text-xs md:text-md lg:px-40 flex flex-col gap-y-4 md:flex-row items-center md:justify-between py-2 md:p-4 dark:bg-sky-900 bg-slate-100">
+    <nav className="z-50 sticky top-0  md:px-20 p-3 text-xs md:text-md lg:px-40 flex flex-col gap-y-4 md:flex-row items-center md:justify-between py-2 md:p-4 dark:bg-sky-900 bg-slate-100">
       <Link to="/">
         <div className="flex space-x-4 justify-center items-center md:justify-between cursor-pointer">
           <img className="w-5 md:w-8 " src={book_logo} alt="book_logo" />
@@ -23,7 +23,6 @@ export default function Navbar() {
             View Results
           </Link>
         </li>
-
 
         {/* <li>
           <Switcher />

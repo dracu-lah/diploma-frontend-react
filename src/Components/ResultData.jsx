@@ -8,7 +8,7 @@ import { AiFillCloseCircle } from "react-icons/ai";
 const ResultData = () => {
   const [collapse, setCollapse] = useState(true);
   return (
-    <div className="flex flex-col gap-1">
+    <div className="flex flex-col gap-1  ">
       <div
         tabIndex={0}
         className="collapse collapse-arrow border border-base-300 bg-base-100  rounded-box"

@@ -39,7 +39,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>3</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -48,7 +48,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>4</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -57,7 +57,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>5</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -66,7 +66,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>6</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -112,7 +112,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>3</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -121,7 +121,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>4</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -130,7 +130,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>5</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -139,7 +139,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>6</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -185,7 +185,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>3</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -194,7 +194,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>4</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -203,7 +203,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>5</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -212,7 +212,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>6</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -258,7 +258,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>3</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -267,7 +267,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>4</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -276,7 +276,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>5</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -285,7 +285,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>6</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -331,7 +331,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>3</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -340,7 +340,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>4</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -349,7 +349,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>5</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -358,7 +358,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>6</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -404,7 +404,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>3</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -413,7 +413,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>4</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -422,7 +422,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>5</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -431,7 +431,7 @@ const TableData = () => {
             <td>50</td>
             <td>S</td>
             <td>P</td>
-          </tr>{" "}
+          </tr>
           <tr>
             <th>6</th>
             <td>3001-Environmental Science & Disaster Management</td>
@@ -443,6 +443,7 @@ const TableData = () => {
           </tr>
         </tbody>
       </table>
+      <button className="w-full bg-red-300 rounded-lg p-2 ">close</button>
     </div>
   );
 };
